@@ -3,10 +3,26 @@ import { MapPin, Phone, Clock, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const contactInfo = [
-  { icon: MapPin, label: "Visite-nos", value: "Av. Getúlio Vargas, 1691 - Sala 805\nMenino Deus, Porto Alegre - RS, 90150-005\nLocalizado em: Neo - Centro Empresarial" },
-  { icon: Phone, label: "Ligue", value: "(51) 99858-8139" },
-  { icon: Mail, label: "E-mail", value: "contato@espacosorripro.com.br" },
-  { icon: Clock, label: "Horário de Atendimento", value: "Seg – Sex: 09h – 18h" },
+  { 
+    icon: MapPin, 
+    label: "Visite-nos", 
+    value: "Av. Economista Nilo Wulff, 215\nRestinga, Porto Alegre - RS, 91790-000" 
+  },
+  { 
+    icon: Phone, 
+    label: "Ligue", 
+    value: "(51) 3061-9092" 
+  },
+  { 
+    icon: Mail, 
+    label: "E-mail", 
+    value: "contato@123clinicaodontologica.com.br" // você pode trocar se tiver o real
+  },
+  { 
+    icon: Clock, 
+    label: "Horário de Atendimento", 
+    value: "Aberto · Fecha às 18h" 
+  },
 ];
 
 const ContactSection = () => {
